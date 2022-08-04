@@ -1,10 +1,21 @@
-#canvas1 {
+canvas {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid black;
+  border: 1px;
 }
+
+#bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(133, 189, 193, 0.404);
+}
+
 .highScore {
   position: absolute;
   top: 10%;
@@ -15,8 +26,10 @@
   width: 100px;
   background: rgba(121, 194, 199, 0.623);
   padding-top: 8px;
-  text-align-last: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
+
 #replay {
   position: absolute;
   top: 50%;
@@ -24,14 +37,4 @@
   transform: translate(-50%, -50%);
   border-radius: 5px;
   z-index: 10;
-}
-#bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(129, 199, 204, 0.404);
-  width: 600px;
-  height: 400px;
-  z-index: 0;
-}
+}/*# sourceMappingURL=flapy.css.map */
